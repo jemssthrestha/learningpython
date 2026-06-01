@@ -102,7 +102,7 @@ if(age>18):
     if(weight>25):
         print("can donate blod")
 else:
-    print("cannot donate blod")'''
+    print("cannot donate blod")
 
 a=int(input("Enter first number: "))
 b=int(input("Enter second number: "))
@@ -112,5 +112,5 @@ if(a>=b and a>=c):
 elif(b>=c):
     print("second is largest.")
 else:
-    print("third is largest.")
+    print("third is largest.")'''
 
