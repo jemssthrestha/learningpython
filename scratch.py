@@ -143,3 +143,30 @@ print(lists.remove("mango"))
 print(lists)
 lists.pop(2)
 print(lists)'''
+
+# tuples
+'''tup=(1,2,3,4,5,6,2)
+print(type(tup),tup)
+print(tup[1])
+tupl=(1,)
+print(tupl)
+# tuple slicing
+# tuple methods
+print(tup.index(2))
+print(tup.count(2))'''
+
+'''movies=[]
+mov1=input("enter movie 1")
+mov2=input("enter movie 2")
+mov3=input("enter movie 3")
+movies.append(mov1)
+movies.append(mov2)
+movies.append(mov3)
+print(movies)
+
+movies.append(input("enter movie 1"))
+movies.append(input("enter movie 2"))
+movies.append(input("enter movie 3"))
+print(movies)'''
+
+
