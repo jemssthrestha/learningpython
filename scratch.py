@@ -122,3 +122,7 @@ marks=[93.5,98.5,87.5,23.3]
 print(marks)
 print(type(marks))
 print(marks[0])
+marks[1]="jems"
+print(marks)
+# list slicing
+print(marks[1:3])
