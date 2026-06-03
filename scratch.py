@@ -169,4 +169,16 @@ movies.append(input("enter movie 2"))
 movies.append(input("enter movie 3"))
 print(movies)'''
 
+list1=[1,2,1]
+list2=[1,2,3]
+copy_list1=list1.copy()
+copy_list1.reverse()
+copy_list2=list2.copy()
+copy_list2.reverse()
+if(copy_list1==list1):
+    print("yes is palindrome")
+print("and")
+if(copy_list2==list2):
+    print("yes is palindrome")
+
 
