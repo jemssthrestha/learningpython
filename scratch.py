@@ -115,5 +115,7 @@ else:
     print("third is largest.")'''
 
 # today no progress
-print("hi")
+# print("hi")
+
+# lists and Tuple
 
