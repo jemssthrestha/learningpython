@@ -118,4 +118,7 @@ else:
 # print("hi")
 
 # lists and Tuple
-
+marks=[93.5,98.5,87.5,23.3]
+print(marks)
+print(type(marks))
+print(marks[0])
