@@ -167,7 +167,7 @@ print(movies)
 movies.append(input("enter movie 1"))
 movies.append(input("enter movie 2"))
 movies.append(input("enter movie 3"))
-print(movies)'''
+print(movies)
 
 list1=[1,2,1]
 list2=[1,2,3]
@@ -179,6 +179,24 @@ if(copy_list1==list1):
     print("yes is palindrome")
 print("and")
 if(copy_list2==list2):
-    print("yes is palindrome")
+    print("yes is palindrome")'''
+
+# starting lecture 4
+#dictionary and sets
+dict={
+    "subjects":["java","html","mth","phy"],
+    "topics":("dict","tuple","sets"),
+    "name":"jems",
+    "learning":"coding",
+    "age":35,
+    "isadult":True,
+    "marks":99.9,
+    12.99:99.99
+}
+print(dict["topics"])
+print(type(dict))
+dict["name"]="ram"
+dict["surname"]="shrestha"
+print(dict)
 
 
