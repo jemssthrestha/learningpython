@@ -117,7 +117,7 @@ else:
 # today no progress
 # print("hi")
 
-# lists and Tuple
+'''# lists and Tuple
 marks=[93.5,98.5,87.5,23.3]
 print(marks)
 print(type(marks))
@@ -126,3 +126,20 @@ marks[1]="jems"
 print(marks)
 # list slicing
 print(marks[1:3])
+marks.append("hi")
+print(marks)
+list=[3,45,7,4,7,9,22]
+print(list.sort(reverse=True))
+print(list)
+lists=["banana","apple","litchi"]
+lists.sort()
+print(lists)
+print(lists.reverse())
+print(lists)
+lists.insert(6,"mango")
+print(lists)
+print(lists[3])
+print(lists.remove("mango"))
+print(lists)
+lists.pop(2)
+print(lists)'''
