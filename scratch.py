@@ -201,7 +201,7 @@ print(dict)
 null_dict={
 
 }
-print(null_dict)'''
+print(null_dict)
 student = {
     "name": "jems stha",
     "subjects": {
@@ -217,7 +217,10 @@ pair=list(student.items())
 print(pair[0])
 print(student["name"])
 print(student.get("name2"))
+print(student.update({"city":"ktm"}))
+print(student)'''
 
+# now sets in python
 
 
 
