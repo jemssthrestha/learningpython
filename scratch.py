@@ -262,11 +262,11 @@ nums=[1,2,3,4,5,6,7,8,9,10,11]
 i=0
 while i<len(nums):
     print(nums[i])
-    i+=1'''
+    i+=1
 
 num=[1,2,3,4,5,6,7,8,9,10,11]
 i=0
-'''while i<len(num):
+while i<len(num):
     if(num[i]==7):
         print("found")
         break
@@ -283,3 +283,22 @@ while i<=10:
 
     print(i)
     i+=1'''
+
+#for loops
+'''nums=[1,2,3,4]
+for i in nums:
+    print(i)
+charecter="jems shrestha"
+for i in charecter:
+    print(i)
+else:
+    print("ends")'''
+
+char="jems shrestha"
+for i in char:
+    if(i=="t"):
+        print("t found")
+        break
+    print(i)
+else:
+    print("ends")
