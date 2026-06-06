@@ -183,7 +183,7 @@ if(copy_list2==list2):
 
 # starting lecture 4
 #dictionary and sets
-dict={
+'''dict={
     "subjects":["java","html","mth","phy"],
     "topics":("dict","tuple","sets"),
     "name":"jems",
@@ -198,5 +198,26 @@ print(type(dict))
 dict["name"]="ram"
 dict["surname"]="shrestha"
 print(dict)
+null_dict={
+
+}
+print(null_dict)'''
+student = {
+    "name": "jems stha",
+    "subjects": {
+        "phy": 99,
+        "che": 99.9
+    }
+}
+
+print(student["subjects"]["phy"])
+print(len(list(student.keys())))
+print(list(student.values()))
+pair=list(student.items())
+print(pair[0])
+print(student["name"])
+print(student.get("name2"))
+
+
 
 
