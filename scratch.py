@@ -292,7 +292,7 @@ charecter="jems shrestha"
 for i in charecter:
     print(i)
 else:
-    print("ends")'''
+    print("ends")
 
 char="jems shrestha"
 for i in char:
@@ -302,3 +302,23 @@ for i in char:
     print(i)
 else:
     print("ends")
+
+# practice qn
+nums =(1,2,3,4,5,7,6,55,44,77,88,90)
+x=55
+idx=0
+for el in nums:
+    if(el==x):
+        print("is found in ", idx)
+    idx+=1
+
+# range function
+for el in range(2,10,2):
+    print(el)
+for el in range(10,0,-1):
+    print(el)
+for el in range(1,11):
+    print(3*el)
+for i in range(5):
+    pass'''
+
