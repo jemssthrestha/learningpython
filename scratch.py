@@ -235,5 +235,14 @@ set1={1,2,3}
 set2={4,5,6}
 print(set1.union(set2))'''
 
+# Practice qn
+'''marks={}
+x=int(input("Enter phy: "))
+marks.update({"phy": x})
+y=int(input("Enter eng: "))
+marks.update({"eng": y})
+z=int(input("Enter che: "))
+marks.update({"che": z})
+print(marks)'''
 
 
