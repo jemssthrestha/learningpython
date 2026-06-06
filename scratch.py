@@ -247,4 +247,39 @@ print(marks)'''
 
 # Now loops
 
+#whilte loops
+'''count=100
+while count>=0:
+    print(count)
+    count-= 1
 
+i=1
+while i<=10:
+    print(3*i)
+    i+=1
+
+nums=[1,2,3,4,5,6,7,8,9,10,11]
+i=0
+while i<len(nums):
+    print(nums[i])
+    i+=1'''
+
+num=[1,2,3,4,5,6,7,8,9,10,11]
+i=0
+'''while i<len(num):
+    if(num[i]==7):
+        print("found")
+        break
+    else:
+        print("finding..")
+        i+=1
+
+
+i=1
+while i<=10:
+    if(i==2):
+        i+=1
+        continue
+
+    print(i)
+    i+=1'''
