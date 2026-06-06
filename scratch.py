@@ -221,6 +221,19 @@ print(student.update({"city":"ktm"}))
 print(student)'''
 
 # now sets in python
+'''collection={1,2,3,4,"hello","world","world"}
+collection.add("hi")
+collection.remove(1)
+collection.add((34,35,345))
+print(collection)
+print(collection.pop())
+# collection.clear()
+print(collection)
+emptyset=set()
+print(type(emptyset))
+set1={1,2,3}
+set2={4,5,6}
+print(set1.union(set2))'''
 
 
 
