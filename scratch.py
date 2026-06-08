@@ -372,9 +372,16 @@ def factorial(n,fact):
     for i in range(1, n+1):
         fact*=i
     print(fact)
-factorial(5,fact)'''
+factorial(5,fact)
 
 def U2N(usd):
     npr=usd*134
     print("USD values is: ", usd ,"=","npr: ", npr)
 U2N(190)
+
+def oddeven(num):
+    if(num%2==0):
+        print("is even")
+    else:
+        print("is odd")
+oddeven(4)'''
