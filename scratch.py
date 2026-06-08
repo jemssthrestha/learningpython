@@ -349,3 +349,20 @@ def calculate_avg(a,b,c):
     avg=(a+b+c)/3
     print("avg: ", avg)
 calculate_avg(1,2,3)'''
+
+# Built in function
+# User defined funtion
+cities=["ktm","pkr","rth"]
+heros=["ram","jems","shyam","hari"]
+print(heros[0],end=" ")
+print(heros[1],end="\n")
+def print_list(list):
+    for item in list:
+        print(item, end=" ")
+print_list(cities)
+
+def print_len(list):
+    print(len(list))
+print()
+print_len(cities)
+print_len(heros)
