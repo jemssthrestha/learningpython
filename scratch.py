@@ -387,3 +387,19 @@ def oddeven(num):
 oddeven(4)'''
 
 # recursion- function it self repeatedly
+'''def sum(num):
+    if(num==0):
+        return
+    print(num)
+    sum(num-1)
+sum(4)
+
+
+def factorial(n):
+    if(n==0 or n==1):
+        return 1
+    return n*factorial(n-1)
+fact=factorial(5)
+print(fact)'''
+
+    
