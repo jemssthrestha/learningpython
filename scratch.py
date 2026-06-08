@@ -325,3 +325,27 @@ for i in range(5):
 
 # now chapter 6
 # function and recursion
+
+'''def calc_sum(a,b):
+    sum=a+b
+    print(sum)
+
+calc_sum(1,2)
+calc_sum(12,7)
+
+def calc_sum(a,b):
+    return a+b
+
+sum= calc_sum(1,2)
+print(sum)
+sum=calc_sum(12,7)
+print(sum)
+
+def print_hello():
+    print("hello")
+print_hello()
+
+def calculate_avg(a,b,c):
+    avg=(a+b+c)/3
+    print("avg: ", avg)
+calculate_avg(1,2,3)'''
