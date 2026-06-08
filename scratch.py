@@ -400,6 +400,33 @@ def factorial(n):
         return 1
     return n*factorial(n-1)
 fact=factorial(5)
-print(fact)'''
+print(fact)
+
+def natural(n):
+    if(n==0):
+        return
+    print(n)
+    natural(n-1)
+natural(5)
+
+def natural(n):
+    if(n==0):
+        return 0
+    print(n)
+    return natural(n-1)+n
+
+sum=natural(5)
+print(sum)'''
+
+num=[1,2,3,4,5,6,7,8,9,10,11]
+def plist(list, index=0):
+    if(index==len(list)):
+        return
+    print(list[index])
+    plist(list, index+1)
+plist(num)
+
+
+    
 
     
