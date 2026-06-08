@@ -322,3 +322,6 @@ for el in range(1,11):
 for i in range(5):
     pass'''
 
+
+# now chapter 6
+# function and recursion
