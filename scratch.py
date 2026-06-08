@@ -385,3 +385,5 @@ def oddeven(num):
     else:
         print("is odd")
 oddeven(4)'''
+
+# recursion- function it self repeatedly
