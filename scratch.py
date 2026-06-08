@@ -365,12 +365,16 @@ def print_len(list):
     print(len(list))
 print()
 print_len(cities)
-print_len(heros)'''
+print_len(heros)
 
 fact=1
-def factorial(n):
+def factorial(n,fact):
     for i in range(1, n+1):
-        fact*=1
-        n-=1
-        print(fact)
-factorial(5)
+        fact*=i
+    print(fact)
+factorial(5,fact)'''
+
+def U2N(usd):
+    npr=usd*134
+    print("USD values is: ", usd ,"=","npr: ", npr)
+U2N(190)
