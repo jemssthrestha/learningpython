@@ -416,7 +416,7 @@ def natural(n):
     return natural(n-1)+n
 
 sum=natural(5)
-print(sum)'''
+print(sum)
 
 num=[1,2,3,4,5,6,7,8,9,10,11]
 def plist(list, index=0):
@@ -424,9 +424,41 @@ def plist(list, index=0):
         return
     print(list[index])
     plist(list, index+1)
-plist(num)
+plist(num)'''
 
+# file IO
+'''f=open("demo.txt","r")
+data=f.read(4)
+print(data)
+print(type(data))
+f.close()
 
+f=open("demo.txt","r")
+line1=f.readline()
+print(line1)
+
+line2=f.readline()
+print(line2)
+
+line3=f.readline()
+print(line3)
+
+f.close()
+
+f=open("demo.txt","w")
+f.write("i am jems stha \n hi jems \n heee")
+f.close()
+
+f=open("sample.txt","a")
+f.write("hi k cha kbr \nhihihi")
+f.close()'''
+
+with open("sample.txt","r") as f:
+    data=f.read()
+    print(data)
+with open("sample.txt","w") as f:
+    f.write("hi i am writing in this file")
+    
 
 
     
