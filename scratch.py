@@ -460,5 +460,31 @@ with open("sample.txt","r") as f:
 with open("sample.txt","w") as f:
     f.write("hi i am writing in this file")'''
 
-# import os
-# os.remove("sample.txt")
+'''import os
+os.remove("sample.txt")'''
+
+'''with open("practice.txt","w") as f:
+    f.write("hi everyone\nwe are learing File I/O\n")
+    f.write("using java.\nI like programming in java.")
+
+with open("practice.txt","r") as f:
+    data=f.read()
+    newdata=data.replace("java","python")
+    print(newdata)
+
+with open("practice.txt","r") as f:
+    data=f.read()
+newdata=data.replace("java","python")
+print(newdata)
+
+with open("practice.txt","w") as f:
+   f.write(newdata)'''
+
+def checkforword():
+    with open("practice.txt","r") as f:
+        data=f.read()
+        if(data.find("learning")!=-1):
+            print("found")
+        else:
+            print("not found")
+checkforword()
