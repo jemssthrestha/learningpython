@@ -426,6 +426,7 @@ def plist(list, index=0):
     plist(list, index+1)
 plist(num)'''
 
+
 # file IO
 '''f=open("demo.txt","r")
 data=f.read(4)
@@ -451,16 +452,13 @@ f.close()
 
 f=open("sample.txt","a")
 f.write("hi k cha kbr \nhihihi")
-f.close()'''
+f.close()
 
 with open("sample.txt","r") as f:
     data=f.read()
     print(data)
 with open("sample.txt","w") as f:
-    f.write("hi i am writing in this file")
-    
+    f.write("hi i am writing in this file")'''
 
-
-    
-
-    
+# import os
+# os.remove("sample.txt")
