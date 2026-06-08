@@ -478,7 +478,7 @@ newdata=data.replace("java","python")
 print(newdata)
 
 with open("practice.txt","w") as f:
-   f.write(newdata)'''
+   f.write(newdata)
 
 def checkforword():
     with open("practice.txt","r") as f:
@@ -488,3 +488,36 @@ def checkforword():
         else:
             print("not found")
 checkforword()
+
+def checkforline():
+    word="File"
+    data=True
+    lineno=1
+    with open("practice.txt","r") as f:
+        while data:
+            data=f.readline()
+            if(word in data):
+                print(lineno)
+                return
+            lineno+=1
+    return -1
+checkforline()'''
+
+with open("num.txt","r") as f:
+    data=f.read()
+    print(data)
+    # num=""
+    # for i in range(len(data)):
+    #     if(data[i]==","):
+    #         print(int(num))
+    #         num=""
+    #     else:
+    #         num+=data[i]
+
+    count=0
+    nums=data.split(",")
+    print(nums)
+    for value in nums:
+        if(int(value)%2==0):
+            count+=1
+    print(count)
