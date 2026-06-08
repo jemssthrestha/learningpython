@@ -352,7 +352,7 @@ calculate_avg(1,2,3)'''
 
 # Built in function
 # User defined funtion
-cities=["ktm","pkr","rth"]
+'''cities=["ktm","pkr","rth"]
 heros=["ram","jems","shyam","hari"]
 print(heros[0],end=" ")
 print(heros[1],end="\n")
@@ -365,4 +365,12 @@ def print_len(list):
     print(len(list))
 print()
 print_len(cities)
-print_len(heros)
+print_len(heros)'''
+
+fact=1
+def factorial(n):
+    for i in range(1, n+1):
+        fact*=1
+        n-=1
+        print(fact)
+factorial(5)
